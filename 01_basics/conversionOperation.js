@@ -32,6 +32,34 @@
 // let bool1=Boolean(string)
 // console.log(bool1)
 
-let someNum=99
-let stringNum=String(someNum)
-console.log(typeof stringNum)
+// let someNum=99
+// let stringNum=String(someNum)
+// console.log(typeof stringNum)
+
+// let val=3
+// let negVal=-val
+// console.log(negVal)
+// //2 strings ko jodne ke liye +
+// console.log(typeof("1" + 2))
+// console.log(typeof(1 + "2"))
+// console.log("1" + 2 + 2)
+// console.log(typeof("1" + 2 + 2)) //converts it into string since start me string hai 
+
+// console.log(1+2+"2") //idar converts into string but pehle operation hoke
+// console.log(typeof(1+2+"2"))
+
+// console.log(+true)
+// console.log(+false)
+// console.log(+"")
+
+// let num1,num2,num3
+// num1=num2=num3=2 + 2 //not preferred
+let gameCounter=100
+//gameCounter++
+++gameCounter
+console.log(gameCounter)
+
+//no changes in ans but there are changes in prefix and postfix operators in js
+//refer mdn
+
+
